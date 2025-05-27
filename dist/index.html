@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Arif Nur Rizqi - Electrical Engineer Portfolio</title>
+		<link href="output.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+		</style>
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-200">
+			<div
+				class="container mx-auto px-4 py-3 flex justify-between items-center"
+			>
+				<div class="text-xl font-bold text-primary">
+					Arif<span class="text-dark">NurRizqi</span>
+				</div>
+				<div class="hidden md:flex space-x-8">
+					<a
+						href="#about"
+						class="nav-link text-dark hover:text-primary transition font-medium"
+						>About</a
+					>
+					<a
+						href="#certificates"
+						class="nav-link text-dark hover:text-primary transition font-medium"
+						>Certificate</a
+					>
+					<a
+						href="#experience"
+						class="nav-link text-dark hover:text-primary transition font-medium"
+						>Experience</a
+					>
+					<a
+						href="#skills"
+						class="nav-link text-dark hover:text-primary transition font-medium"
+						>Skills</a
+					>
+					<a
+						href="#projects"
+						class="nav-link text-dark hover:text-primary transition font-medium"
+						>Projects</a
+					>
+					<a
+						href="#contact"
+						class="nav-link text-dark hover:text-primary transition font-medium"
+						>Contact</a
+					>
+				</div>
+				<button class="md:hidden text-dark" id="mobile-menu-button">
+					<i class="fas fa-bars text-xl"></i>
+				</button>
+			</div>
+
+			<!-- Mobile Menu -->
+			<div
+				class="md:hidden hidden bg-white border-t border-gray-200 px-4 py-2"
+				id="mobile-menu"
+			>
+				<a
+					href="#about"
+					class="block py-2 text-dark hover:text-primary transition font-medium"
+					>About</a
+				>
+				<a
+					href="#certificates"
+					class="block py-2 text-dark hover:text-primary transition font-medium"
+					>Certificate</a
+				>
+				<a
+					href="#experience"
+					class="block py-2 text-dark hover:text-primary transition font-medium"
+					>Experience</a
+				>
+				<a
+					href="#skills"
+					class="block py-2 text-dark hover:text-primary transition font-medium"
+					>Skills</a
+				>
+				<a
+					href="#projects"
+					class="block py-2 text-dark hover:text-primary transition font-medium"
+					>Projects</a
+				>
+				<a
+					href="#contact"
+					class="block py-2 text-dark hover:text-primary transition font-medium"
+					>Contact</a
+				>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<header
+			class="py-20 bg-gradient-to-r from-primary to-primary-dark text-white"
+		>
+			<div
+				class="container mx-auto px-4 flex flex-col md:flex-row items-center"
+			>
+				<div class="md:w-1/2 mb-10 md:mb-0">
+					<h1 class="text-4xl md:text-5xl font-bold mb-4">Arif Nur Rizqi</h1>
+					<h2 class="text-2xl md:text-3xl font-semibold mb-6">
+						Electrical Engineer | Weak Current Systems & Control
+					</h2>
+					<p class="text-white/90 mb-8 text-lg leading-relaxed">
+						Fresh graduate in Electrical Engineering (2025) GPA: 3.89/4.00 with
+						skills in industrial instrumentation, IoT systems, and control
+						technologies.
+					</p>
+					<div class="flex space-x-4">
+						<a
+							href="#contact"
+							class="bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition shadow-md"
+							>Contact Me</a
+						>
+						<a
+							href="#projects"
+							class="hidden md:block border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition"
+							>View Projects</a
+						>
+						<a
+							href="#projects"
+							class="border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition"
+							>Download CV</a
+						>
+					</div>
+				</div>
+				<div class="md:w-1/2 flex justify-center">
+					<div class="relative">
+						<div
+							class="w-64 h-72 md:w-72 md:h-80 bg-white rounded-2xl overflow-hidden border-4 border-white shadow-xl"
+						>
+							<!-- Placeholder for your photo -->
+							<div
+								class="w-full h-full bg-gray-200 flex items-center justify-center"
+							>
+								<!-- <i class="fas fa-user text-6xl text-gray-400"></i> -->
+								<img src="./../src/img/me rev-compress.jpg" alt="" />
+							</div>
+						</div>
+						<div
+							class="absolute -bottom-5 -right-5 bg-accent text-white px-4 py-2 rounded-lg shadow-md font-medium"
+						>
+							<span>Available for work</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- About Section -->
+		<section id="about" class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<span class="text-primary font-semibold">ABOUT ME</span>
+					<h2 class="text-3xl font-bold text-dark mt-2">
+						Professional Profile
+					</h2>
+					<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+				</div>
+
+				<div class="flex flex-col lg:flex-row gap-12">
+					<div class="lg:w-1/2">
+						<h3 class="text-xl font-semibold text-dark mb-4">Who I Am</h3>
+						<p class="text-gray-600 mb-6">
+							I'm a 22-year-old fresh graduate with a Bachelor's degree in
+							Electrical Engineering (weak current stream) from Universitas
+							Wijayakusuma Purwokerto. My passion lies in industrial
+							instrumentation, IoT technologies, and automation systems.
+						</p>
+						<p class="text-gray-600 mb-6">
+							With over one year of experience as a technician in IT
+							infrastructure companies and participation in projects at PT
+							Pertamina International RU IV Cilacap, I've developed strong
+							technical skills in instrumentation, PLC programming, and
+							electrical systems.
+						</p>
+						<p class="text-gray-600">
+							I'm also experienced as a laboratory assistant at UNWIKU's
+							Electrical Engineering laboratory, where I taught subjects like
+							Digital Techniques, Basic Programming, PLC, SCADA, and IoT.
+						</p>
+
+						<div class="grid grid-cols-2 gap-4 mt-8">
+							<div class="bg-light p-4 rounded-lg border border-gray-200">
+								<div class="flex items-center">
+									<div class="bg-primary p-2 rounded-full mr-3">
+										<i class="fas fa-graduation-cap text-white"></i>
+									</div>
+									<div>
+										<p class="text-gray-500 text-sm">Education</p>
+										<p class="font-medium">
+											Bachelor of Electrical Engineering
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="bg-light p-4 rounded-lg border border-gray-200">
+								<div class="flex items-center h-full">
+									<div class="bg-secondary p-2 rounded-full mr-3">
+										<i class="fas fa-bolt text-white"></i>
+									</div>
+									<div>
+										<p class="text-gray-500 text-sm">Specialization</p>
+										<p class="font-medium">Control Systems</p>
+									</div>
+								</div>
+							</div>
+							<div class="bg-light p-4 rounded-lg border border-gray-200">
+								<div class="flex items-center">
+									<div class="bg-accent p-2 rounded-full mr-3">
+										<i class="fas fa-map-marker-alt text-white"></i>
+									</div>
+									<div>
+										<p class="text-gray-500 text-sm">Location</p>
+										<p class="font-medium">Purwokerto, Indonesia</p>
+									</div>
+								</div>
+							</div>
+							<div class="bg-light p-4 rounded-lg border border-gray-200">
+								<div class="flex items-center h-full">
+									<div class="bg-primary p-2 rounded-full mr-3">
+										<i class="fas fa-certificate text-white"></i>
+									</div>
+									<div>
+										<p class="text-gray-500 text-sm">GPA</p>
+										<p class="font-medium">3.89/4.00</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="lg:w-1/2">
+						<h3 class="text-xl font-semibold text-dark mb-4">Education</h3>
+
+						<div class="mb-8">
+							<div class="flex justify-between items-center mb-2">
+								<h4 class="font-semibold text-lg">
+									Universitas Wijayakusuma Purwokerto
+								</h4>
+								<span
+									class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium"
+									>2021 - 2025</span
+								>
+							</div>
+							<p class="text-gray-600">Bachelor of Electrical Engineering</p>
+							<p class="text-gray-500 text-sm mt-1">
+								GPA: 3.89/4.00 | Specialized in Control Systems and Weak Current
+								Stream
+							</p>
+						</div>
+
+						<div class="mb-8">
+							<div class="flex justify-between items-center mb-2">
+								<h4 class="font-semibold text-lg">SMK N 2 Purwokerto</h4>
+								<span
+									class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium"
+									>2018 - 2021</span
+								>
+							</div>
+							<p class="text-gray-600">Industrial Electronics Engineering</p>
+							<p class="text-gray-500 text-sm mt-1">
+								Final Score: 84.00/100.00 | Specialized in Electropneumatics
+							</p>
+						</div>
+
+						<h3 class="text-xl font-semibold text-dark mt-8 mb-4">
+							Awards & Achievements
+						</h3>
+						<div class="space-y-4">
+							<div class="flex items-start">
+								<div class="bg-secondary py-2 px-2.5 rounded-full mr-4 mt-1">
+									<i class="fas fa-award text-white text-sm"></i>
+								</div>
+								<div>
+									<h4 class="font-medium">
+										Best Graduate of Engineering Faculty
+									</h4>
+									<p class="text-gray-600 text-sm">
+										Was awarded the best graduate with a GPA of 3.89 with a
+										study period of 3 years 7 months
+									</p>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<div class="bg-secondary p-2 rounded-full mr-4 mt-1">
+									<i class="fas fa-trophy text-white text-sm"></i>
+								</div>
+								<div>
+									<h4 class="font-medium">PKM-KC Grant Recipient 2024</h4>
+									<p class="text-gray-600 text-sm">
+										Funded by Kemendikbudristek for IoT-based Water Usage &
+										Quality Monitoring System
+									</p>
+								</div>
+							</div>
+							<div class="flex items-start">
+								<div class="bg-secondary p-2 rounded-full mr-4 mt-1">
+									<i class="fas fa-trophy text-white text-sm"></i>
+								</div>
+								<div>
+									<h4 class="font-medium">PKM-KC Grant Recipient 2023</h4>
+									<p class="text-gray-600 text-sm">
+										Funded by Kemendikbudristek for IoT-integrated Water Meter
+										Device
+									</p>
+								</div>
+							</div>
+							<!-- <div class="flex items-start">
+								<div class="bg-secondary p-2 rounded-full mr-4 mt-1">
+									<i class="fas fa-award text-white text-sm"></i>
+								</div>
+								<div>
+									<h4 class="font-medium">
+										Sangat Kompeten (Highly Competent)
+									</h4>
+									<p class="text-gray-600 text-sm">
+										UKK (Competency Test) in Industrial Electronics Engineering
+										- Electropneumatics
+									</p>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="certificates" class="bg-white pb-16">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-8">
+					<span class="text-primary font-semibold">CERTIFICATE</span>
+					<h2 class="text-3xl font-bold text-dark mt-2">Completed Programs</h2>
+					<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+					<!-- Certificate Card -->
+					<div
+						class="bg-light rounded-xl shadow-md p-6 border border-gray-200 hover:border-primary transition"
+					>
+						<h3 class="text-xl font-semibold text-dark mb-2">
+							Web Development Bootcamp
+						</h3>
+						<p class="text-sm text-dark-lighter mb-4">
+							Completed online course covering HTML, CSS, JS, and Node.js.
+						</p>
+						<a
+							href="#"
+							target="_blank"
+							class="inline-block text-sm text-primary hover:underline"
+						>
+							View Certificate →
+						</a>
+					</div>
+
+					<!-- Certificate Card -->
+					<div
+						class="bg-light rounded-xl shadow-md p-6 border border-gray-200 hover:border-primary transition"
+					>
+						<h3 class="text-xl font-semibold text-dark mb-2">
+							AWS Cloud Practitioner
+						</h3>
+						<p class="text-sm text-dark-lighter mb-4">
+							Credential issued by Amazon Web Services (AWS) in 2024.
+						</p>
+						<a
+							href="#"
+							target="_blank"
+							class="inline-block text-sm text-primary hover:underline"
+						>
+							View Certificate →
+						</a>
+					</div>
+
+					<!-- Add more cards as needed -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Experience Section -->
+		<section id="experience" class="py-16 bg-light">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<span class="text-primary font-semibold">PROFESSIONAL JOURNEY</span>
+					<h2 class="text-3xl font-bold text-dark mt-2">Work Experience</h2>
+					<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+				</div>
+
+				<div class="relative">
+					<!-- Timeline -->
+					<div class="space-y-8">
+						<!-- Project Coordinator -->
+						<div class="timeline-item relative pl-8">
+							<div
+								class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary border-4 border-white"
+							></div>
+							<div
+								class="card-hover bg-white p-6 rounded-xl shadow-md border border-gray-200 transition"
+							>
+								<div
+									class="flex flex-col md:flex-row md:justify-between md:items-center mb-4"
+								>
+									<h3 class="text-xl font-semibold text-primary">
+										Project Coordinator
+									</h3>
+									<span
+										class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium"
+										>Jan 2025 - Mar 2025</span
+									>
+								</div>
+								<p class="text-gray-600 mb-4 font-medium">
+									PT Gelyn Sidni | PT Kilang Pertamina International RU IV
+									Cilacap
+								</p>
+								<p class="text-gray-500 mb-4">
+									Project Digitalisasi Field Instrument KPC (Kilang Paraxylene
+									Complex) pada Turn Arround 2025
+								</p>
+								<ul class="list-disc pl-5 text-gray-600 space-y-2">
+									<li>
+										Monitored the digital instrumentation project from pneumatic
+										to electric, turbine meter to Coriolis
+									</li>
+									<li>
+										Evaluated work results and coordinated with users regarding
+										field execution
+									</li>
+									<li>
+										Ensured project compliance with specifications and schedule
+									</li>
+									<li>
+										Supervised electrical work including termination,
+										calibration, loop checks, and system testing
+									</li>
+									<li>
+										Created project progress reports, wiring diagrams, and
+										supporting documents
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Technician -->
+						<div class="timeline-item relative pl-8">
+							<div
+								class="absolute left-0 top-0 w-4 h-4 rounded-full bg-secondary border-4 border-white"
+							></div>
+							<div
+								class="card-hover bg-white p-6 rounded-xl shadow-md border border-gray-200 transition"
+							>
+								<div
+									class="flex flex-col md:flex-row md:justify-between md:items-center mb-4"
+								>
+									<h3 class="text-xl font-semibold text-secondary">
+										Technician
+									</h3>
+									<span
+										class="bg-secondary/10 text-secondary px-3 py-1 rounded-full text-sm font-medium"
+										>Mar 2024 - Jun 2024</span
+									>
+								</div>
+								<p class="text-gray-600 mb-4 font-medium">
+									PT Sinar Artha Kusuma & PT Mitra Pandawa Sentosa | PT Kilang
+									Pertamina International RU IV Cilacap
+								</p>
+								<ul class="list-disc pl-5 text-gray-600 space-y-2">
+									<li>
+										Calibration of CEMS instruments in Boiler Utilities and SRU
+										stack areas
+									</li>
+									<li>
+										Instrument installation on lines 309, 317, 318 area 70 and
+										instrument relocation in area 48 FOC II
+									</li>
+									<li>
+										Instrument cable termination in Field, Junction Box, and
+										Marshalling Cabinet Control Room
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Lab Assistant -->
+						<div class="timeline-item relative pl-8">
+							<div
+								class="absolute left-0 top-0 w-4 h-4 rounded-full bg-accent border-4 border-white"
+							></div>
+							<div
+								class="card-hover bg-white p-6 rounded-xl shadow-md border border-gray-200 transition"
+							>
+								<div
+									class="flex flex-col md:flex-row md:justify-between md:items-center mb-4"
+								>
+									<h3 class="text-xl font-semibold text-accent">
+										Laboratory Assistant
+									</h3>
+									<span
+										class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium"
+										>Nov 2022 - Jan 2024</span
+									>
+								</div>
+								<p class="text-gray-600 mb-4 font-medium">
+									Electrical Engineering Laboratory, UNWIKU
+								</p>
+								<ul class="list-disc pl-5 text-gray-600 space-y-2">
+									<li>
+										Assisted in Digital Techniques, Basic Programming, PLC,
+										SCADA, and IoT practicums
+									</li>
+									<li>
+										Prepared tools, materials, and jobsheets before practicums
+									</li>
+									<li>Guided and supervised practicum participants</li>
+									<li>Corrected practicum reports and conducted post-tests</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills Section -->
+		<section id="skills" class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<span class="text-primary font-semibold">TECHNICAL EXPERTISE</span>
+					<h2 class="text-3xl font-bold text-dark mt-2">Applied Skills</h2>
+					<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+					<!-- Industrial Instrumentation -->
+					<div
+						class="card-hover bg-light p-6 rounded-lg border border-gray-200"
+					>
+						<div class="flex items-center mb-4">
+							<div class="bg-primary p-3 rounded-full mr-4">
+								<i class="fas fa-cogs text-white"></i>
+							</div>
+							<h3 class="text-lg font-semibold">Industrial Instrumentation</h3>
+						</div>
+						<ul class="list-disc pl-5 text-gray-600 space-y-2">
+							<li>Instrument calibration and installation</li>
+							<li>Electrical termination</li>
+							<li>Loop checking</li>
+							<li>System testing</li>
+							<li>Pneumatic to electric conversion</li>
+						</ul>
+					</div>
+
+					<!-- Control Systems -->
+					<div
+						class="card-hover bg-light p-6 rounded-lg border border-gray-200"
+					>
+						<div class="flex items-center mb-4">
+							<div class="bg-primary p-3 rounded-full mr-4">
+								<i class="fas fa-sliders-h text-white"></i>
+							</div>
+							<h3 class="text-lg font-semibold">Control Systems</h3>
+						</div>
+						<ul class="list-disc pl-5 text-gray-600 space-y-2">
+							<li>PLC Programming (Omron, Schneider)</li>
+							<li>SCADA Systems</li>
+							<li>HMI Configuration (Haiwell)</li>
+							<li>Process control</li>
+							<li>Automation</li>
+						</ul>
+					</div>
+
+					<!-- IoT Development -->
+					<div
+						class="card-hover bg-light p-6 rounded-lg border border-gray-200"
+					>
+						<div class="flex items-center mb-4">
+							<div class="bg-primary p-3 rounded-full mr-4">
+								<i class="fas fa-wifi text-white"></i>
+							</div>
+							<h3 class="text-lg font-semibold">IoT Development</h3>
+						</div>
+						<ul class="list-disc pl-5 text-gray-600 space-y-2">
+							<li>Arduino programming</li>
+							<li>ESP microcontroller</li>
+							<li>Sensor networks</li>
+							<li>Data monitoring systems</li>
+							<li>PKM-KC grant projects</li>
+						</ul>
+					</div>
+
+					<!-- Electrical Systems -->
+					<div
+						class="card-hover bg-light p-6 rounded-lg border border-gray-200"
+					>
+						<div class="flex items-center mb-4">
+							<div class="bg-primary p-3 rounded-full mr-4">
+								<i class="fas fa-bolt text-white"></i>
+							</div>
+							<h3 class="text-lg font-semibold">Electrical Systems</h3>
+						</div>
+						<ul class="list-disc pl-5 text-gray-600 space-y-2">
+							<li>Weak current systems</li>
+							<li>Circuit design</li>
+							<li>Wiring diagrams</li>
+							<li>Termination</li>
+							<li>Electropneumatics</li>
+						</ul>
+					</div>
+
+					<!-- Technical Documentation -->
+					<div
+						class="card-hover bg-light p-6 rounded-lg border border-gray-200"
+					>
+						<div class="flex items-center mb-4">
+							<div class="bg-primary p-3 rounded-full mr-4">
+								<i class="fas fa-file-alt text-white"></i>
+							</div>
+							<h3 class="text-lg font-semibold">Technical Documentation</h3>
+						</div>
+						<ul class="list-disc pl-5 text-gray-600 space-y-2">
+							<li>Project progress reports</li>
+							<li>Wiring diagrams</li>
+							<li>Technical specifications</li>
+							<li>Billing documentation</li>
+							<li>Laboratory jobsheets</li>
+						</ul>
+					</div>
+
+					<!-- IT Infrastructure -->
+					<div
+						class="card-hover bg-light p-6 rounded-lg border border-gray-200"
+					>
+						<div class="flex items-center mb-4">
+							<div class="bg-primary p-3 rounded-full mr-4">
+								<i class="fas fa-network-wired text-white"></i>
+							</div>
+							<h3 class="text-lg font-semibold">IT Infrastructure</h3>
+						</div>
+						<ul class="list-disc pl-5 text-gray-600 space-y-2">
+							<li>Network installation</li>
+							<li>CCTV systems</li>
+							<li>PABX systems</li>
+							<li>Security alarms</li>
+							<li>Technical support</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Tools & Technologies -->
+				<div class="mt-12 bg-light p-8 rounded-xl border border-gray-200">
+					<h3 class="text-xl font-semibold text-dark mb-6 flex items-center">
+						<i class="fas fa-tools text-primary mr-3"></i>
+						<span>Tools & Technologies</span>
+					</h3>
+					<div
+						class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"
+					>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-microchip text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">PLC (Omron, Schneider)</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-project-diagram text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">HMI (Haiwell)</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-wifi text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">IoT Systems (HTTPS, MQTT)</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-bolt text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Electrical Systems</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-code text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Arduino/ESP, db MySQL</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fab fa-linux text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Linux (Debian)</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fab fa-github text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Git/GitHub</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-desktop text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">PCB, System Design</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-network-wired text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Networking</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-sliders-h text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Calibration</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-robot text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Electropneumatics</span>
+						</div>
+						<div
+							class="flex flex-col items-center p-4 bg-white rounded-lg border border-gray-200"
+						>
+							<i class="fas fa-file-alt text-3xl text-primary mb-2"></i>
+							<span class="text-sm text-center">Technical Docs</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects Section -->
+		<section id="projects" class="py-16 bg-light">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<span class="text-primary font-semibold">PORTFOLIO</span>
+					<h2 class="text-3xl font-bold text-dark mt-2">Recent Projects</h2>
+					<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<!-- PKM-KC 2024 -->
+					<div
+						class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-gray-200 transition"
+					>
+						<div
+							class="h-48 bg-gradient-to-r from-primary to-primary-dark flex items-center justify-center"
+						>
+							<i class="fas fa-tint text-white text-6xl"></i>
+						</div>
+						<div class="p-6">
+							<div class="flex justify-between items-start mb-3">
+								<h3 class="text-xl font-semibold text-dark">
+									IoT Water Monitoring
+								</h3>
+								<span
+									class="bg-secondary/10 text-secondary px-2 py-1 rounded text-xs font-medium"
+									>2024</span
+								>
+							</div>
+							<p class="text-gray-600 mb-4 text-sm">
+								PKM-KC Grant Recipient - Funded by Kemendikbudristek
+							</p>
+							<p class="text-gray-500 mb-4 text-sm">
+								Developed an integrated IoT system for monitoring water usage
+								and quality with real-time data visualization.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span
+									class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+									>IoT</span
+								>
+								<span
+									class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+									>Microcontroller</span
+								>
+								<span
+									class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+									>Sensor Networks</span
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- PKM-KC 2023 -->
+					<div
+						class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-gray-200 transition"
+					>
+						<div
+							class="h-48 bg-gradient-to-r from-secondary to-secondary-dark flex items-center justify-center"
+						>
+							<i class="fas fa-water text-white text-6xl"></i>
+						</div>
+						<div class="p-6">
+							<div class="flex justify-between items-start mb-3">
+								<h3 class="text-xl font-semibold text-dark">IoT Water Meter</h3>
+								<span
+									class="bg-secondary/10 text-secondary px-2 py-1 rounded text-xs font-medium"
+									>2023</span
+								>
+							</div>
+							<p class="text-gray-600 mb-4 text-sm">
+								PKM-KC Grant Recipient - Funded by Kemendikbudristek
+							</p>
+							<p class="text-gray-500 mb-4 text-sm">
+								Created an innovative water meter integrated with IoT technology
+								for remote monitoring and data collection.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span
+									class="px-2 py-1 bg-secondary/10 text-secondary rounded-full text-xs"
+									>IoT</span
+								>
+								<span
+									class="px-2 py-1 bg-secondary/10 text-secondary rounded-full text-xs"
+									>Arduino</span
+								>
+								<span
+									class="px-2 py-1 bg-secondary/10 text-secondary rounded-full text-xs"
+									>ESP</span
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industrial Project -->
+					<div
+						class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-gray-200 transition"
+					>
+						<div
+							class="h-48 bg-gradient-to-r from-accent to-accent-dark flex items-center justify-center"
+						>
+							<i class="fas fa-industry text-white text-6xl"></i>
+						</div>
+						<div class="p-6">
+							<div class="flex justify-between items-start mb-3">
+								<h3 class="text-xl font-semibold text-dark">
+									Refinery Instrumentation
+								</h3>
+								<span
+									class="bg-accent/10 text-accent px-2 py-1 rounded text-xs font-medium"
+									>2024-2025</span
+								>
+							</div>
+							<p class="text-gray-600 mb-4 text-sm">
+								PT Kilang Pertamina International RU IV Cilacap
+							</p>
+							<p class="text-gray-500 mb-4 text-sm">
+								Participated in instrumentation projects including
+								digitalization, calibration, and installation at Pertamina
+								refinery.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span
+									class="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs"
+									>PLC</span
+								>
+								<span
+									class="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs"
+									>Instrumentation</span
+								>
+								<span
+									class="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs"
+									>Calibration</span
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- Lab Projects -->
+					<div
+						class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-gray-200 transition"
+					>
+						<div
+							class="h-48 bg-gradient-to-r from-primary to-primary-light flex items-center justify-center"
+						>
+							<i class="fas fa-flask text-white text-6xl"></i>
+						</div>
+						<div class="p-6">
+							<div class="flex justify-between items-start mb-3">
+								<h3 class="text-xl font-semibold text-dark">
+									Educational Lab Projects
+								</h3>
+								<span
+									class="bg-primary/10 text-primary px-2 py-1 rounded text-xs font-medium"
+									>2022-2024</span
+								>
+							</div>
+							<p class="text-gray-600 mb-4 text-sm">
+								UNWIKU Electrical Engineering Lab
+							</p>
+							<p class="text-gray-500 mb-4 text-sm">
+								Developed and assisted in various lab projects including PLC
+								programming, SCADA systems, and IoT applications.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span
+									class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+									>PLC</span
+								>
+								<span
+									class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+									>SCADA</span
+								>
+								<span
+									class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+									>HMI</span
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- UKK Project -->
+					<div
+						class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-gray-200 transition"
+					>
+						<div
+							class="h-48 bg-gradient-to-r from-secondary to-secondary-light flex items-center justify-center"
+						>
+							<i class="fas fa-bolt text-white text-6xl"></i>
+						</div>
+						<div class="p-6">
+							<div class="flex justify-between items-start mb-3">
+								<h3 class="text-xl font-semibold text-dark">
+									Electropneumatic System
+								</h3>
+								<span
+									class="bg-secondary/10 text-secondary px-2 py-1 rounded text-xs font-medium"
+									>2021</span
+								>
+							</div>
+							<p class="text-gray-600 mb-4 text-sm">
+								SMKN 2 Purwokerto - UKK Project
+							</p>
+							<p class="text-gray-500 mb-4 text-sm">
+								Designed and implemented an electropneumatic control system,
+								earning "Sangat Kompeten" (Highly Competent) certification.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span
+									class="px-2 py-1 bg-secondary/10 text-secondary rounded-full text-xs"
+									>Electropneumatics</span
+								>
+								<span
+									class="px-2 py-1 bg-secondary/10 text-secondary rounded-full text-xs"
+									>Control Systems</span
+								>
+								<span
+									class="px-2 py-1 bg-secondary/10 text-secondary rounded-full text-xs"
+									>Automation</span
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- Freelance Work -->
+					<div
+						class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-gray-200 transition"
+					>
+						<div
+							class="h-48 bg-gradient-to-r from-accent to-accent-light flex items-center justify-center"
+						>
+							<i class="fas fa-network-wired text-white text-6xl"></i>
+						</div>
+						<div class="p-6">
+							<div class="flex justify-between items-start mb-3">
+								<h3 class="text-xl font-semibold text-dark">
+									IT Infrastructure
+								</h3>
+								<span
+									class="bg-accent/10 text-accent px-2 py-1 rounded text-xs font-medium"
+									>2021-2022</span
+								>
+							</div>
+							<p class="text-gray-600 mb-4 text-sm">
+								CV Sarana Citra Komunikasi
+							</p>
+							<p class="text-gray-500 mb-4 text-sm">
+								Installed and maintained network/hardware systems including
+								CCTV, PABX, alarm systems for banks and hospitals.
+							</p>
+							<div class="flex flex-wrap gap-2">
+								<span
+									class="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs"
+									>Networking</span
+								>
+								<span
+									class="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs"
+									>CCTV</span
+								>
+								<span
+									class="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs"
+									>Security Systems</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-12">
+					<span class="text-primary font-semibold">GET IN TOUCH</span>
+					<h2 class="text-3xl font-bold text-dark mt-2">Contact Me</h2>
+					<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+				</div>
+
+				<div class="flex flex-col lg:flex-row gap-8">
+					<div class="lg:w-1/2">
+						<div class="bg-light p-8 rounded-xl border border-gray-200">
+							<h3
+								class="text-xl font-semibold text-dark mb-6 flex items-center"
+							>
+								<i class="fas fa-envelope text-primary mr-3"></i>
+								<span>Contact Information</span>
+							</h3>
+							<p class="text-gray-600 mb-6">
+								Feel free to reach out for job opportunities, collaborations, or
+								technical discussions related to electrical engineering and
+								industrial instrumentation.
+							</p>
+
+							<div class="space-y-6">
+								<div class="flex items-start">
+									<div class="bg-primary p-3 rounded-xl mr-4">
+										<i class="fas fa-envelope text-white"></i>
+									</div>
+									<div>
+										<h4 class="font-semibold text-dark">Email</h4>
+										<p class="text-gray-600">arifnurrizqi@gmail.com</p>
+									</div>
+								</div>
+								<div class="flex items-start">
+									<div class="bg-primary p-3 rounded-xl mr-4">
+										<i class="fas fa-phone-alt text-white"></i>
+									</div>
+									<div>
+										<h4 class="font-semibold text-dark">Phone</h4>
+										<p class="text-gray-600">+62 899 8095 663</p>
+									</div>
+								</div>
+								<div class="flex items-start">
+									<div class="bg-primary p-3 rounded-xl mr-4">
+										<i class="fas fa-map-marker-alt text-white"></i>
+									</div>
+									<div>
+										<h4 class="font-semibold text-dark">Location</h4>
+										<p class="text-gray-600">
+											Purwokerto, Jawa Tengah, Indonesia
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<h3
+								class="text-xl font-semibold text-dark mt-10 mb-6 flex items-center"
+							>
+								<i class="fas fa-share-alt text-primary mr-3"></i>
+								<span>Connect With Me</span>
+							</h3>
+							<div class="flex space-x-4">
+								<a
+									href="#"
+									class="card-hover bg-primary hover:bg-primary-dark text-white p-4 rounded-xl transition shadow-md"
+								>
+									<i class="fab fa-linkedin-in text-lg"></i>
+								</a>
+								<a
+									href="#"
+									class="card-hover bg-dark hover:bg-dark-light text-white p-4 rounded-xl transition shadow-md"
+								>
+									<i class="fab fa-github text-lg"></i>
+								</a>
+								<a
+									href="#"
+									class="card-hover bg-gradient-to-r from-pink-500 to-pink-600 text-white p-4 rounded-xl transition shadow-md"
+								>
+									<i class="fab fa-instagram text-lg"></i>
+								</a>
+								<a
+									href="#"
+									class="card-hover bg-blue-400 hover:bg-blue-500 text-white p-4 rounded-xl transition shadow-md"
+								>
+									<i class="fab fa-twitter text-lg"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="lg:w-1/2">
+						<form class="bg-light p-8 rounded-xl border border-gray-200">
+							<h3
+								class="text-xl font-semibold text-dark mb-6 flex items-center"
+							>
+								<i class="fas fa-paper-plane text-primary mr-3"></i>
+								<span>Send Me a Message</span>
+							</h3>
+							<div class="mb-6">
+								<label for="name" class="block text-gray-700 mb-2 font-medium"
+									>Your Name</label
+								>
+								<input
+									type="text"
+									id="name"
+									class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+								/>
+							</div>
+							<div class="mb-6">
+								<label for="email" class="block text-gray-700 mb-2 font-medium"
+									>Your Email</label
+								>
+								<input
+									type="email"
+									id="email"
+									class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+								/>
+							</div>
+							<div class="mb-6">
+								<label
+									for="message"
+									class="block text-gray-700 mb-2 font-medium"
+									>Message</label
+								>
+								<textarea
+									id="message"
+									rows="4"
+									class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+								></textarea>
+							</div>
+							<button
+								type="submit"
+								class="card-hover bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg transition w-full font-medium shadow-md"
+							>
+								Send Message
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-dark text-white py-12">
+			<div class="container mx-auto px-4">
+				<div class="flex flex-col md:flex-row justify-between items-center">
+					<div class="mb-6 md:mb-0 text-center md:text-left">
+						<div class="text-2xl font-bold text-primary mb-3">
+							Arif Nur Rizqi
+						</div>
+						<p class="text-gray-400 max-w-md">
+							Electrical Engineer specializing in control systems, industrial
+							instrumentation, and IoT technologies.
+						</p>
+					</div>
+					<div class="flex space-x-6">
+						<a href="#about" class="text-gray-400 hover:text-white transition"
+							>About</a
+						>
+						<a
+							href="#experience"
+							class="text-gray-400 hover:text-white transition"
+							>Experience</a
+						>
+						<a href="#skills" class="text-gray-400 hover:text-white transition"
+							>Skills</a
+						>
+						<a
+							href="#projects"
+							class="text-gray-400 hover:text-white transition"
+							>Projects</a
+						>
+						<a href="#contact" class="text-gray-400 hover:text-white transition"
+							>Contact</a
+						>
+					</div>
+				</div>
+				<div
+					class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center"
+				>
+					<p class="text-gray-400 mb-4 md:mb-0">
+						© 2025 Arif Nur Rizqi. All rights reserved.
+					</p>
+					<div class="flex space-x-4">
+						<a href="#" class="text-gray-400 hover:text-white transition">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+						<a href="#" class="text-gray-400 hover:text-white transition">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="#" class="text-gray-400 hover:text-white transition">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#" class="text-gray-400 hover:text-white transition">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			// Mobile menu toggle
+			document
+				.getElementById("mobile-menu-button")
+				.addEventListener("click", function () {
+					const menu = document.getElementById("mobile-menu");
+					menu.classList.toggle("hidden");
+				});
+
+			// Smooth scrolling for navigation links
+			document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+				anchor.addEventListener("click", function (e) {
+					e.preventDefault();
+
+					const targetId = this.getAttribute("href");
+					const targetElement = document.querySelector(targetId);
+
+					if (targetElement) {
+						window.scrollTo({
+							top: targetElement.offsetTop - 80,
+							behavior: "smooth",
+						});
+
+						// Close mobile menu if open
+						const mobileMenu = document.getElementById("mobile-menu");
+						if (!mobileMenu.classList.contains("hidden")) {
+							mobileMenu.classList.add("hidden");
+						}
+					}
+				});
+			});
+
+			// Animate skill bars on scroll
+			function animateSkillBars() {
+				const skillBars = document.querySelectorAll(".skill-bar");
+				skillBars.forEach((bar) => {
+					const width = bar.style.width;
+					bar.style.width = "0";
+					setTimeout(() => {
+						bar.style.width = width;
+					}, 100);
+				});
+			}
+
+			// Intersection Observer for skill bars animation
+			const observer = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							animateSkillBars();
+							observer.unobserve(entry.target);
+						}
+					});
+				},
+				{ threshold: 0.5 }
+			);
+
+			const skillsSection = document.getElementById("skills");
+			if (skillsSection) {
+				observer.observe(skillsSection);
+			}
+		</script>
+	</body>
+</html>
