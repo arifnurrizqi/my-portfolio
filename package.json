@@ -23,8 +23,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tail-dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "tail-prod": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "tail-dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "tail-prod": "tailwindcss -i ./src/input.css -o ./public/output.css --minify"
   },
   "keywords": [],
   "author": "",
