@@ -1305,7 +1305,6 @@
 							method="POST"
 							data-netlify="true"
 							netlify-honeypot="bot-field"
-							@submit.prevent="handleSubmit"
 							class="bg-light p-8 rounded-xl border border-gray-200"
 						>
 							<h3
@@ -1315,6 +1314,7 @@
 								<span>Send Me a Message</span>
 							</h3>
 							<!-- Honeypot untuk spam -->
+							<input type="hidden" name="form-name" value="contact" />
 							<p class="hidden">
 								<label
 									>Jangan isi ini jika Anda manusia: <input name="bot-field"
@@ -1445,24 +1445,6 @@
 		</footer>
 
 		<script>
-			// Handle form
-			const handleSubmit = (event) => {
-				event.preventDefault();
-
-				const myForm = event.target;
-				const formData = new FormData(myForm);
-
-				fetch("/", {
-					method: "POST",
-					headers: { "Content-Type": "application/x-www-form-urlencoded" },
-					body: new URLSearchParams(formData).toString(),
-				})
-					.then(() => console.log("Form successfully submitted"))
-					.catch((error) => alert(error));
-			};
-
-			document.querySelector("form").addEventListener("submit", handleSubmit);
-
 			// Mobile menu toggle
 			document
 				.getElementById("mobile-menu-button")
